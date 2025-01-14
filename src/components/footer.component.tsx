@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <View style={styles.mainContainer}>
       <Text style={styles.textTitle}>
-        Ada Memiliki Kendala? Hubungi Customer Service Kami
+        Anda Memiliki Kendala? Hubungi Customer Service Kami
       </Text>
       <TouchableOpacity style={styles.button} onPress={handlePress}>
         <Icon name="whatsapp" size={20} color={colors.white} />
